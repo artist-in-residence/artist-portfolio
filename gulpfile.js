@@ -34,8 +34,9 @@ gulp.task('watch', function() {
       browserSync.reload();
   });
 
-  watch('./app/assets/styles/**/*.css', function() {
+  watch('./app/css/**/*.css', gulp.series(gulp.parallel('styles')), function() {
       browserSync.reload();
-      gulp.start('styles');
+
+
   });
 });
