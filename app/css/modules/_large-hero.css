@@ -1,25 +1,25 @@
-body {
-  margin: 0;
-  color: #FFF;
-  background-color: black;
-}
 .large-hero {
   background-image: url(images/opera-stage.jpg);
   background-size: cover;
   background-position: center;
   height: 800px;
 }
+
 .large-hero__grid {
   display: flex;
   flex-wrap: wrap;
 }
+
 .large-hero__text {
 }
+
+
 .large-hero__logo--image {
   padding: 20px 40px;
   height: 100px;
   width: 100px;
 }
+
 .large-hero__title {
   padding: 30px 0;
 }
