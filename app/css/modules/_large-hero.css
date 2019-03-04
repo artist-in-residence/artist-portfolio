@@ -6,7 +6,7 @@
 
 &__header {
   background-color: rgba(91, 91, 91, .6);
-  height: 85px;
+  height: 95px;
   margin-bottom: 80px;
 }
 
@@ -16,14 +16,14 @@
 
 &__image-file {
   padding: 10px 40px;
-  height: 110px;
-  width: 110px;
+  height: 120px;
+  width: 120px;
 }
 
 &__title {
   padding-top: 20px;
   float: left;
-  transform: translateX(50%);
+  transform: translateX(49%);
   font-weight: 900;
   font-size: 3.2rem;
 }
