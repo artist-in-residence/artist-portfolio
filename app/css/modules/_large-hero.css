@@ -7,11 +7,13 @@
 &__header {
   background-color: rgba(91, 91, 91, .6);
   height: 95px;
-  margin-bottom: 80px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 &__image {
-    float: left;
+    width: 25%;
 }
 
 &__image-file {
@@ -22,10 +24,11 @@
 
 &__title {
   padding-top: 20px;
-  float: left;
-  transform: translateX(49%);
+  box-sizing: border-box;
+  width: 50%;
   font-weight: 900;
   font-size: 3.2rem;
+  text-align: center;
 }
   &__title--red {
     color: #c43c42;
@@ -35,13 +38,15 @@
 
 &__subtitle {
   text-align: center;
-  font-size: 2.2rem;
-  margin-top: 170px;
-  margin-bottom: 50px;
-}
+  font-size: 2.3rem;
 
-&__link {
+&--smaller {
+  margin-top: 110px;
   text-align: center;
 }
+
+}
+
+
 
 }

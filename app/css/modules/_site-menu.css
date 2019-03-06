@@ -1,0 +1,17 @@
+.site-menu {
+width: 25%;
+
+&__icon {
+  padding: 47px 40px 0 0;
+}
+
+  &__line {
+    width: 25px;
+    height: 3px;
+    background-color: #FFF;
+    margin-bottom: 6px;
+  }
+  &--right {
+    text-align: -webkit-right;
+  }
+}

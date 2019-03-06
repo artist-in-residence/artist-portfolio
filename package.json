@@ -1,7 +1,9 @@
 {
   "name": "artist-portfolio",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.4.9",
     "browser-sync": "^2.26.3",
