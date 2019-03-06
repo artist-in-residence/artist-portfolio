@@ -2,7 +2,7 @@
 width: 25%;
 
 &__icon {
-  padding: 47px 40px 0 0;
+  padding: 47px 0 0 0px;
 }
 
   &__line {
@@ -11,7 +11,7 @@ width: 25%;
     background-color: #FFF;
     margin-bottom: 6px;
   }
-  &--right {
-    text-align: -webkit-right;
+  &--centered {
+    text-align: -webkit-center;
   }
 }

@@ -410,7 +410,7 @@ a {
 }
 
 .large-hero__image-file {
-  padding: 10px 40px;
+  padding: 10px 80px;
   height: 120px;
   width: 120px;
 }
@@ -464,7 +464,7 @@ width: 25%;
 }
 
 .site-menu__icon {
-  padding: 47px 40px 0 0;
+  padding: 47px 0 0 0px;
 }
 
 .site-menu__line {
@@ -474,6 +474,6 @@ width: 25%;
     margin-bottom: 6px;
   }
 
-.site-menu--right {
-    text-align: -webkit-right;
+.site-menu--centered {
+    text-align: -webkit-center;
   }
