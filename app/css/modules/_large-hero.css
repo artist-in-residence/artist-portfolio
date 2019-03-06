@@ -14,10 +14,11 @@
 
 &__image {
     width: 25%;
+    text-align: center;
 }
 
 &__image-file {
-  padding: 10px 80px;
+  padding: 10px 0;
   height: 120px;
   width: 120px;
 }

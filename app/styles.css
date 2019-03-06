@@ -407,10 +407,11 @@ a {
 
 .large-hero__image {
     width: 25%;
+    text-align: center;
 }
 
 .large-hero__image-file {
-  padding: 10px 80px;
+  padding: 10px 0;
   height: 120px;
   width: 120px;
 }
