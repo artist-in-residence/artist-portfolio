@@ -1,5 +1,7 @@
 @import "normalize.css";
+@import "base/_variables.css";
 @import "base/_global";
 @import "modules/_large-hero";
 @import "modules/_btn";
 @import "modules/_site-menu";
+@import "modules/_about-section";

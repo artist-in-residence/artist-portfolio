@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li, ul {
 	margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -7,14 +7,31 @@ h1, h2, h3, h4, h5, h6, p {
 body {
   margin: 0;
   color: #e6e6e6;
-  background-color: black;
+  background-color: #FFF;
   font-family: 'Dancing Script', cursive;
+	font-size: 1rem;
 }
 
 a {
   text-decoration: none;
   color: #FFF;
 }
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+.content-area {
+	height: auto;
+	padding: 20px;
+}
+
+
 
 /**ClearFix**/
   .row:before,

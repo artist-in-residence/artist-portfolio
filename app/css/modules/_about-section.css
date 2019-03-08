@@ -1,0 +1,24 @@
+.about-section {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  background-color: #FFF;
+  height: 600px;
+&__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  }
+&__section-title {
+  font-size: 1.75rem;
+  background-color: $mainRed;
+  width: 150px;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 10px 10px 0px 0px;
+  }
+&__section-content {
+  font-size: 1.125rem;
+  background-color: $mainRed;
+  height: 100px;
+  }
+}
