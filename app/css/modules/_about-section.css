@@ -1,7 +1,7 @@
 .about-section {
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
   background-color: #FFF;
-  height: 640px;
+  padding: 40px 10px;
 &__section-title {
   font-size: 1.75rem;
   background-color: $mainRed;
@@ -15,19 +15,34 @@
   }
 &__section-content {
   padding: 20px 40px;
-  font-size: 1.375rem;
+  font-size: 1.75rem;
   background-color: $mainRed;
-  height: 480px;
   border: 2px solid #000;
   }
 
+&__image-container {
+  width: 20%;
+}
+
 &__image {
+padding-right: 10px;
+}
+
+&__description-section {
+  width: 80%;
+}
+
+&__arrow {
+  padding-left: 40px;
+  float: left;
 }
 
 &__description {
-  width: 400px;
-  padding-left: 20px;
+  float: left;
+  padding-left: 10px;
   box-sizing: border-box;
+  width: 80%;
+  margin-bottom: 30px;
 }
 
 &__block-quote {
@@ -37,9 +52,13 @@
   }
 
 &__block-quote-text {
-  font-size: 1.75rem;
+  font-size: 1.975rem;
   text-align: center;
   font-weight: 700;
   width: 33%;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  padding: 10px 0;
+  margin: 10px;
   }
 }
