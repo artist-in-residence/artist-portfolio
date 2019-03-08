@@ -1,11 +1,7 @@
 .about-section {
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
   background-color: #FFF;
-  height: 600px;
-&__tabs {
-  display: flex;
-  flex-wrap: wrap;
-  }
+  height: 640px;
 &__section-title {
   font-size: 1.75rem;
   background-color: $mainRed;
@@ -14,11 +10,36 @@
   margin: 0;
   text-align: center;
   border: 1px solid #000;
+  border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   }
 &__section-content {
-  font-size: 1.125rem;
+  padding: 20px 40px;
+  font-size: 1.375rem;
   background-color: $mainRed;
-  height: 100px;
+  height: 480px;
+  border: 2px solid #000;
+  }
+
+&__image {
+}
+
+&__description {
+  width: 400px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+&__block-quote {
+  color: #000;
+  padding-top: 20px;
+  justify-content: center;
+  }
+
+&__block-quote-text {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 700;
+  width: 33%;
   }
 }
