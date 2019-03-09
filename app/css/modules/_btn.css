@@ -4,7 +4,7 @@
   font-size: 1.75rem;
   box-shadow:  0 1px 3px 1px black;
   border-radius: 10px;
-  background-color: #c43c42;
+  background-color: $mainRed;
   transition: all 1s;
 
   &--light {
@@ -13,6 +13,6 @@
 }
 
 .btn:hover {
-  background-color: #9d2f34;
+  background-color: #e60000;
   color: #cccccc;
 }

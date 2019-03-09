@@ -1,4 +1,20 @@
 .portfolio {
   background-image: url(images/curtain-background.png);
   height: 600px;
+
+&__title {
+  text-align: center;
+}
+
+&__pages {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  height: 400px;
+}
+&__page-container {
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  }
 }

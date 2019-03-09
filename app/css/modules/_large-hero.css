@@ -32,7 +32,7 @@
   text-align: center;
 }
   &__title--red {
-    color: #c43c42;
+    color: $mainRed;
     font-weight: 900;
   }
 
