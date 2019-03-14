@@ -1,7 +1,6 @@
 .about-section {
-  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-  background-color: #FFF;
-  padding: 30px 10px;
+  color: #000;
+  background-image: url(images/wood.jpg);
 &__section-title {
   font-size: 1.75rem;
   background-color: $mainRed;
@@ -14,9 +13,10 @@
   border-radius: 10px 10px 0px 0px;
   }
 &__section-content {
+  margin: 0 100px;
   padding: 20px 40px;
   font-size: 1.75rem;
-  background-color: $mainRed;
+  background-image: url(images/paper.png);
   border: 2px solid #000;
   }
 
@@ -46,7 +46,6 @@ padding-right: 10px;
 }
 
 &__block-quote {
-  color: #000;
   padding-top: 20px;
   justify-content: center;
   }

@@ -7,8 +7,8 @@ h1, h2, h3, h4, h5, h6, p, li, ul {
 body {
   margin: 0;
   color: #e6e6e6;
-  background-color: #FFF;
-  font-family: 'Dancing Script', sans-serif cursive;
+  font-family: 'Dancing Script', sans-serif;
+	font-style: cursive;
 	font-size: 1rem;
 }
 
@@ -38,10 +38,13 @@ h3{
 	font-size: 1.5rem;
 }
 
+.standard-font {
+font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+}
 
 .content-area {
 	height: auto;
-	padding: 20px;
+	padding: 40px;
 }
 
 .flex--wrap {

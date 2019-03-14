@@ -1,0 +1,39 @@
+.contact {
+background-color: #262626;
+text-align: center;
+
+&__form {
+  margin: 20px 0;
+}
+
+&__title {
+}
+
+&__form--style {
+  width: 60%;
+  height: 40px;
+  border: 1px solid $mainRed;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+&__form-name {
+  }
+&__form-textarea {
+  height: 100px;
+  resize: none;
+}
+&__form-submit {
+  width: 61%;
+  height: 60px;
+  margin: 0;
+  color: #FFF;
+}
+
+&__form-message {
+  padding: 40px 0 20px 0;
+  font-size: 1.5625rem;
+  }
+
+}
