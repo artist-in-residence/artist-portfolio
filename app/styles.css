@@ -407,6 +407,10 @@ font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Ro
 	align-items: center;
 }
 
+.flex--justify-center {
+	justify-content: center;
+}
+
 /**ClearFix**/
 
 .row:before,
@@ -520,30 +524,41 @@ width: 25%;
 .about-section {
   color: #000;
   background-image: url(images/wood.jpg);
+  background-size: cover;
 }
-
-.about-section__section-title {
-  font-size: 1.75rem;
-  background-color: #b30000;
-  width: 150px;
-  padding: 10px 0;
-  margin: 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  }
 
 .about-section__section-content {
   margin: 0 100px;
-  padding: 20px 40px;
+  padding: 20px;
   font-size: 1.75rem;
   background-image: url(images/paper.png);
   border: 2px solid #000;
   }
 
+.about-section__who-section {
+  padding-top: 115px;
+  height: 450px;
+}
+
+.about-section__what-section {
+padding-top: 40px;
+}
+
+.about-section__why-section {
+  padding-top: 32px;
+}
+
+.about-section__about-title {
+  font-size: 3.75rem;
+  text-align: center;
+  color: #b30000;
+  font-weight: 700;
+}
+
 .about-section__image-container {
-  width: 20%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 8px;
 }
 
 .about-section__image {
@@ -551,37 +566,28 @@ padding-right: 10px;
 }
 
 .about-section__description-section {
-  width: 80%;
+  line-height: 1.7;
 }
 
+.about-section__bullet-point {}
+
 .about-section__arrow {
+  padding-top: 10px;
   padding-left: 40px;
   float: left;
 }
 
 .about-section__description {
+  font-size: 1.75rem;
   float: left;
   padding-left: 10px;
   box-sizing: border-box;
-  width: 80%;
-  margin-bottom: 30px;
+  width: 90%;
 }
 
-.about-section__block-quote {
-  padding-top: 20px;
-  justify-content: center;
-  }
-
-.about-section__block-quote-text {
-  font-size: 1.975rem;
-  text-align: center;
-  font-weight: 700;
-  width: 33%;
-  border-top: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  padding: 10px 0;
-  margin: 20px;
-  }
+.about-section--translate-left{
+  padding-left: 175px;
+}
 
 .portfolio {
   background-image: url(images/curtain-background.png);
@@ -623,6 +629,7 @@ text-align: center;
   border: 1px solid #b30000;
   margin: 5px 0;
   padding: 5px;
+  box-shadow:  0 1px 3px 1px black;
   font-size: 1.3rem;
 }
 
@@ -642,8 +649,13 @@ text-align: center;
 }
 
 .contact__form-message {
-  padding: 40px 0 20px 0;
+  padding: 20px 0 0px 0;
   font-size: 1.5625rem;
+  }
+
+.contact__title--red {
+    color: #b30000;
+    font-weight: 900;
   }
 
 .footer {
@@ -655,4 +667,52 @@ text-align: center;
 
 .footer__message {
   font-weight: 400;
+}
+
+.social-items {
+  padding-top: 5px;
+}
+
+.social-items__social-icon {
+    font-size: 2.25rem;
+    margin: 0 3px;
+  }
+
+.modal {
+position: fixed;
+background-color: #262626;
+top: 0;
+bottom: 0;
+right: 0;
+width: 25%;
+visibility: hidden;
+
+
+
+
+
+}
+
+.modal--flex {
+  display: flex;
+  height: 680px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal__close {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.modal__close-container {
+background-color: #b30000;
+padding: 0 4px;
+}
+
+.modal__link {
+  text-align: center;
+  padding: 15px 0;
 }

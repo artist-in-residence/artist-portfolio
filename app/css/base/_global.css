@@ -56,6 +56,10 @@ font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Ro
 	align-items: center;
 }
 
+.flex--justify-center {
+	justify-content: center;
+}
+
 
 
 /**ClearFix**/

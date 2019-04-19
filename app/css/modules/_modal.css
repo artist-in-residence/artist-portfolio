@@ -1,0 +1,38 @@
+.modal {
+position: fixed;
+background-color: $mainGrey;
+top: 0;
+bottom: 0;
+right: 0;
+width: 25%;
+visibility: hidden;
+
+&--flex {
+  display: flex;
+  height: 680px;
+  align-items: center;
+  flex-direction: column;
+}
+
+&__close {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+&__close-container {
+background-color: $mainRed;
+padding: 0 4px;
+}
+
+&__link {
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+
+
+
+}

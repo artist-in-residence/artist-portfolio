@@ -1,27 +1,39 @@
 .about-section {
   color: #000;
   background-image: url(images/wood.jpg);
-&__section-title {
-  font-size: 1.75rem;
-  background-color: $mainRed;
-  width: 150px;
-  padding: 10px 0;
-  margin: 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  }
+  background-size: cover;
 &__section-content {
   margin: 0 100px;
-  padding: 20px 40px;
+  padding: 20px;
   font-size: 1.75rem;
   background-image: url(images/paper.png);
   border: 2px solid #000;
   }
 
+&__who-section {
+  padding-top: 115px;
+  height: 450px;
+}
+
+&__what-section {
+padding-top: 40px;
+}
+
+&__why-section {
+  padding-top: 32px;
+}
+
+&__about-title {
+  font-size: 3.75rem;
+  text-align: center;
+  color: $mainRed;
+  font-weight: 700;
+}
+
 &__image-container {
-  width: 20%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 8px;
 }
 
 &__image {
@@ -29,35 +41,26 @@ padding-right: 10px;
 }
 
 &__description-section {
-  width: 80%;
+  line-height: 1.7;
 }
 
+&__bullet-point {}
+
 &__arrow {
+  padding-top: 10px;
   padding-left: 40px;
   float: left;
 }
 
 &__description {
+  font-size: 1.75rem;
   float: left;
   padding-left: 10px;
   box-sizing: border-box;
-  width: 80%;
-  margin-bottom: 30px;
+  width: 90%;
 }
 
-&__block-quote {
-  padding-top: 20px;
-  justify-content: center;
-  }
-
-&__block-quote-text {
-  font-size: 1.975rem;
-  text-align: center;
-  font-weight: 700;
-  width: 33%;
-  border-top: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  padding: 10px 0;
-  margin: 20px;
-  }
+&--translate-left{
+  padding-left: 175px;
+}
 }

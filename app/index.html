@@ -4,6 +4,7 @@
   <title>Artist in Residence Studios</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
@@ -29,45 +30,45 @@
   </div>
 </div>
 
-  <div class="about-section standard-font">
+  <div class="about-section">
     <div class="about-section__section-content">
 
-      <h2>Who?</h2>
-      <div class="flex--wrap flex--align-center">
-        <div class="about-section__image-container">
-        <img class="about-section__image" src="images/artist-image.jpg" alt="Mason Lambert-AiR"/>
-        </div>
-    <ul class="about-section__description-section">
-      <li class="group">
+<div class="about-section__who-section">
+  <h2 class="about-section__about-title">Who?</h2>
+    <div class="about-section__image-container">
+    <img class="about-section__image" src="images/artist-image.jpg" alt="Mason Lambert-AiR"/>
+    </div>
+<ul class="about-section__description-section about-section--translate-left standard-font">
+  <li class="about-section__bullet-point group">
 <img class="about-section__arrow" src="images/arrow-bullet.png" />
 <p class="about-section__description">
-  Mason Lambert, self-taught web developer with a love for design and creating.
+I am Mason Lambert, a self-taught web developer from Charlotte, NC.
 </p>
 </li>
-      <li><img class="about-section__arrow" src="images/arrow-bullet.png" /></li>
-      <li class="about-section__description">Professional opera singer and performer. Master's of Music in Vocal Performance from the Eastman School of Music.</li>
-    </ul>
-      </div>
-  <div class="about-section__block-quote flex--wrap">
-  <p class="about-section__block-quote-text"><i>"I began designing websites as a hobby, but the craft has since become a true passion that accompanies my desire for artistic expression."</i></p>
-  </div>
+  <li><img class="about-section__arrow" src="images/arrow-bullet.png" />
+  <p class="about-section__description">Professional opera singer and performer. Master's of Music in Vocal Performance from the Eastman School of Music.</p></li>
+</ul>
+</div>
 
-<div>
-  <h2>What?</h2>
-    <ul>
-      <li>Personalized website designs to meet your needs.</li>
-      <li>Site management and maintenance.</li>
-      <li>Video, photo, and document optimization.</li>
-      <li>Social media pages for businesses and individuals.</li>
+<div class="about-section__what-section">
+  <h2 class="about-section__about-title">What?</h2>
+    <ul class="about-section__description-section about-section--translate-left standard-font">
+      <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />  <p class="about-section__description">Personalized website designs to meet your needs.</p></li>
+      <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />  <p class="about-section__description">Site management and maintenance.</p></li>
+      <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />  <p class="about-section__description">Video, photo, and document optimization.</p></li>
+      <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />  <p class="about-section__description">Social media pages for businesses and individuals.</p></li>
     </ul>
   </div>
 
-  <div>
-<h2>Why?</h2>
-  <ul>
-    <li>Make a strong first impression. Share your story and personality with the world.</li>
-    <li>Ease of Mind. We build your online brand so you can focus on your craft.</li>
-    <li>Passion for young artists. AiR studios desires to help launch the careers of artists, musicians, and performers just entering into the professional world.</li>
+  <div class="about-section__why-section">
+<h2 class="about-section__about-title">Why?</h2>
+  <ul class="about-section__description-section about-section--translate-left standard-font">
+    <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />
+      <p class="about-section__description">Share your story and personality with the world.</p></li>
+    <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />
+      <p class="about-section__description">We build your online brand so you can focus on your craft.</p></li>
+    <li class="group"><img class="about-section__arrow" src="images/arrow-bullet.png" />
+      <p class="about-section__description">Passion for young artists. Launching the careers of artists, musicians, and performers just entering into the professional world.</p></li>
   </ul>
 </div>
 
@@ -95,15 +96,21 @@
 
 <div class="contact">
 <div class="content-area">
-<h2 class="contact__title">Let's work together.</h2>
+<h2 class="contact__title">Let's work <span class="contact__title--red">together.</span></h2>
   <form class="contact__form standard-font">
       <input class="contact__form--style contact__form-name" placeholder="Name"> </input>
       <input class="contact__form--style contact__form-email" placeholder="Email"></input>
       <textarea class="contact__form--style contact__form-textarea" placeholder="Your Message"></textarea>
       <input class="contact__form--style contact__form-submit btn" type="submit" placeholder="Send"></input>
   </form>
+
+  <div class="social-items">
+  <a class="" href="#" target="_blank"><i class="social-items__social-icon fab fa-facebook"></i></a>
+  <a class="" href="" target="_blank"><i class="social-items__social-icon fab fa-instagram"></i></a>
+  <a class="" href="" target="_blank"><i class="social-items__social-icon fab fa-linkedin"></i></a>
+  </div>
   <div class="contact__form-message">
-  <p>Thanks so much for joining me on this journey<br>
+  <p>Thanks so much for joining me on this journey.<br>
   -Mason</p>
   </div>
 </div>
@@ -115,4 +122,20 @@
 <footer class="footer">
   <p class="footer__message">Artist in Residence Studios&copy; 2019</p>
 </footer>
+
+<div class="modal">
+<div class="modal__close standard-font"><span class="modal__close-container">X</span></div>
+<div class="modal--flex">
+  <div class="modal__link"><h2>About</h2></div>
+  <div class="modal__link"><h2>Sites</h2></div>
+  <div class="modal__link"><h2>Contact</h2></div>
+</div>
+</div>
+
+
+
+
+
+
+
 </html>
